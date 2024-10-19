@@ -9,6 +9,8 @@ This project involves extracting, transforming, loading (ETL), and querying data
 ## Project Structure
 
 Here’s an overview of the project structure:
+
+```
 ├── Dockerfile
 ├── LICENSE
 ├── Makefile
@@ -24,7 +26,7 @@ Here’s an overview of the project structure:
 ├── requirements.txt
 ├── setup.sh
 └── test_main.py
-
+```
 
 ## Requirements
 
