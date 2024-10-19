@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from databricks import sql
 
 
-def load(dataset="data/candy-data.csv"):
+def load(dataset="candy-data.csv"):
     """"Transforms and Loads data into the local Databricks database"""
     
     # Load the dataset

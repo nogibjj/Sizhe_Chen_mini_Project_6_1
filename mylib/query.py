@@ -1,7 +1,7 @@
 """Query the database"""
+import os
 from dotenv import load_dotenv
 from databricks import sql
-import os
 
 complex_query = """
 WITH candy_stats AS (
@@ -37,9 +37,6 @@ def query():
             
             for row in result:
                 print(row)
-            
-            cursor.close()
-            connection.close()
             
     return "query successful"
 
