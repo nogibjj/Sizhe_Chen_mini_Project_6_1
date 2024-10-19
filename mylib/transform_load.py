@@ -50,7 +50,8 @@ def load(dataset="data/candy-data.csv"):
                 insert_query = """
                 INSERT INTO jessie_candy_data (
                     competitorname, chocolate, fruity, caramel, peanutyalmondy, nougat,
-                    crispedricewafer, hard, bar, pluribus, sugarpercent, pricepercent, winpercent
+                    crispedricewafer, hard, bar, pluribus, sugarpercent, 
+                    pricepercent, winpercent
                 ) 
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """
