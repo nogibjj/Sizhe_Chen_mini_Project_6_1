@@ -1,4 +1,4 @@
-use clap::Parser; // Import the Parser trait from clap
+use clap::{Parser}; // Make sure 'Parser' is imported
 
 #[derive(Parser, Debug)]
 #[command(version = "1.0", about = "Calculate the average of two numbers")]
@@ -6,6 +6,7 @@ struct Args {
     num1: i64,
     num2: i64,
 }
+
 
 // New function to calculate the average of two numbers
 fn calculate_average(x: i64, y: i64) -> f64 {
