@@ -1,4 +1,3 @@
-## SQLite Lab
 
 [![CI](https://github.com/jessc0202/Sizhe_Chen_mini_Project_6_1/actions/workflows/cicd.yml/badge.svg)](https://github.com/jessc0202/Sizhe_Chen_mini_Project_6_1/actions/workflows/cicd.yml)
 
